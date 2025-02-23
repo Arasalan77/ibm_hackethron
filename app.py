@@ -373,7 +373,7 @@ def process_json_file(json_path, output_folder):
 
 if __name__ == "__main__":
     # Path to your JSON input (update this path as needed)
-    json_input_path = "/home/wellness/Arasalan 2024-11-30/codes/ibm_hackethron/demo_patient.json"  # e.g., "input_patient.json"
+    json_input_path = "demo_patient.json"  # e.g., "input_patient.json"
     output_folder = "output"
 
     logging.info("Starting JSON processing script.")
