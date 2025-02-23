@@ -1,0 +1,6 @@
+python-dotenv
+pdf2image
+tenacity
+langchain
+Pillow
+ibm-watson-machine-learning
