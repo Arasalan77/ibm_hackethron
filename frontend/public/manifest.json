@@ -1,0 +1,60 @@
+{
+  "short_name": "MedAI IPD",
+  "name": "MedAI Paperless IPD",
+  "icons": [
+    {
+      "src": "/icon_16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_24x24.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "screenshots": [
+  {
+    "src": "/paperless_ipd_laptop_screenshot.png",
+    "sizes": "1920x1080",
+    "type": "image/png",
+    "form_factor": "wide"
+  },
+  {
+    "src": "/paperless_ipd_mobile_screenshot.png",
+    "sizes": "750x1334",
+    "type": "image/png",
+    "form_factor": "narrow"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "scope": "/",
+  "prefer_related_applications": false,
+  "categories": ["medical", "healthcare"],
+  "shortcuts": [
+    {
+      "name": "Home",
+      "url": "/",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+/* Container for the entire slide-in menu */
+.patient-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;               /* Initially hidden (width = 0) */
+    height: 100vh;
+    background-color: #f0f0f0;
+    overflow-x: hidden;     /* Hide horizontal scrollbar when closed */
+    transition: width 0.3s ease;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* When the menu is open, set it to 70% of screen width */
+  .patient-menu.open {
+    width: 30%;
+  }
+  
+  /* Close button at top-right inside the menu */
+  .close-button {
+    float: right;
+    border: none;
+    background: #999;
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: -10px; /* adjust as needed */
+  }
+  
+  .close-button:hover {
+    background: #777;
+  }
+  
+  .patient-menu h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    clear: both; /* ensure heading doesn't float next to button */
+  }
+  
+  .patient-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .patient-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer; /* indicates clickable item */
+  }
+  
+  .patient-item:hover {
+    background-color: #eaeaea;
+  }
+  
+  .patient-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  

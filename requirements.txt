@@ -4,3 +4,13 @@ tenacity
 langchain
 Pillow
 ibm-watson-machine-learning
+langchain
+langchain-ibm
+langchain_community
+ibm-watsonx-ai
+ibm_watson_machine_learning
+chromadb
+tiktoken
+bs4
+langchain_google_genai
+flask

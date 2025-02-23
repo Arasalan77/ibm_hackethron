@@ -1,0 +1,53 @@
+.case-summary {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .summary-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .page-section {
+    margin-bottom: 30px;
+  }
+  
+  .page-title {
+    font-size: 22px;
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .summary-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .summary-table th, .summary-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .summary-table th {
+    background: #007bff;
+    color: white;
+  }
+  
+  .highlight-new {
+    font-weight: bold;
+    color: #28a745;
+  }
+  
